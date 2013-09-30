@@ -34,9 +34,9 @@ function timeSince(time){
 
          while (format = time_formats[i++]) if (seconds < format[0]) {
                  if (typeof format[2] == "string")
-                         return format[list_choice];
+                         return format[list_choice] + " " + token;
              else
-                         return Math.floor(seconds / format[2]) + " " + format[1];
+                         return Math.floor(seconds / format[2]) + " " + format[1] + " " + token;
          }
-         return time;
+         return time + " " + token;
  };
