@@ -1,6 +1,6 @@
 /* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * Gives the time passed since the given timestamp
+ * params : timestamp
  */
 
 function timeSince(time){
